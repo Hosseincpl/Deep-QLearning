@@ -15,4 +15,3 @@ class Memory():
             np.arange(buffer_size), size=self.batch_size, replace=False
         )
         batch = [self.buffer[i] for i in index]
-        return batch
